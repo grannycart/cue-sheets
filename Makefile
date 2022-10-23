@@ -15,9 +15,7 @@ CSS = css/clean-html.css
 # This line puts a version date into the compiled pandoc file using the -M metadata switch. The default setup puts in today's date:
 DATE = -M date="Version date - `date "+%B %e, %Y"`" 
 
-all: book
-
-book: html pdf
+all: html pdf
 
 clean:
 	rm -r $(BUILD)
