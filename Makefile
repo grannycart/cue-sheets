@@ -1,5 +1,5 @@
 # Makefile
-# Last modified: Sun Oct 23, 2022  05:12PM
+# Last modified: Sun Oct 23, 2022  05:20PM
 #################################################################################
 # Requires: pandoc latex columns.lua
 #
@@ -34,8 +34,7 @@ $(BUILD)/pdf/$(FILENAME).pdf: $(CUE_SHEET)
 	mkdir $(BUILD)/pdf
 #	Below with some latex options (-V) added.
 #		-V pagestyle=empty turns off page numbers (maybe doesn't work with multi-page documents)
-#		Other options you might want to try:  -V classoption:twocolumn
-#	columns lua filter gives some capabilities for multicols. The syntax for style and where the columns are is written into the markdown on the lines beginning with :::.
-	pandoc -s --from markdown+smart --pdf-engine=xelatex $(DATE) --lua-filter="./columns.lua" -V pagestyle=empty -V documentclass=$(LATEX_CLASS) -V classoption:landscape -V papersize=letter -V geometry:margin=.5in -o $@ $^
+#		Other options you might want to try:  -V classoption:twocolumn -V classoption:landscape -V papersize=letter 
+	pandoc -s --from markdown+smart --pdf-engine=xelatex $(DATE) -V pagestyle=empty -V documentclass=$(LATEX_CLASS) -V geometry:margin=.2in -V geometry:paperwidth=3.25in -V geometry:paperheight=5in -o $@ $^
 
 .PHONY: all book clean html pdf

@@ -1,9 +1,7 @@
 cue-sheet-1.md  
-Last modified: Sun Oct 23, 2022  05:11PM
+Last modified: Sun Oct 23, 2022  05:15PM
 
 - https://goo.gl/maps/Ayd35mGWPKtSdDm58
-
-::: {.columns column-count=3 columngap=4em column-rule="1pt solid black"}
 
 ## City Island to Randall's Island
 * [ ] Bike path along City Island Road from City Island
@@ -22,8 +20,5 @@ Last modified: Sun Oct 23, 2022  05:11PM
 * [ ] R E 132nd; 1 blk
 * [ ] L Randall's Island Connector
 
-\columnbreak
-
-:::
 
 
