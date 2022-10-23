@@ -1,7 +1,7 @@
-#
-# This Makefile modified from original maintainer at:
-# https://github.com/evangoer/pandoc-ebook-template
-# Originally released under an MIT license
+# Makefile
+# Last modified: Sun Oct 23, 2022  05:12PM
+#################################################################################
+# Requires: pandoc latex columns.lua
 #
 # This is the built files directory, all output files will be created in here:
 BUILD = built-files
@@ -33,6 +33,9 @@ $(BUILD)/html/$(FILENAME).html: $(CUE_SHEET)
 $(BUILD)/pdf/$(FILENAME).pdf: $(CUE_SHEET)
 	mkdir $(BUILD)/pdf
 #	Below with some latex options (-V) added.
-	pandoc -s --from markdown+smart --pdf-engine=xelatex $(DATE) -V documentclass=$(LATEX_CLASS) -V classoption:twocolumn -V classoption:landscape -V papersize=letter -o $@ $^
+#		-V pagestyle=empty turns off page numbers (maybe doesn't work with multi-page documents)
+#		Other options you might want to try:  -V classoption:twocolumn
+#	columns lua filter gives some capabilities for multicols. The syntax for style and where the columns are is written into the markdown on the lines beginning with :::.
+	pandoc -s --from markdown+smart --pdf-engine=xelatex $(DATE) --lua-filter="./columns.lua" -V pagestyle=empty -V documentclass=$(LATEX_CLASS) -V classoption:landscape -V papersize=letter -V geometry:margin=.5in -o $@ $^
 
 .PHONY: all book clean html pdf
