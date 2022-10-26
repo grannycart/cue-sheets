@@ -20,10 +20,11 @@
 * Edit your route by dragging points on it until you have a reasonable route instead of Google's default nonsense.
 * Click open details for the directions.
 * Select all directions and copy from website (don't print as pdf, that can result in formatting messups) 
-* In text editor:
+* In text editor (I use vim):
 	* paste directions in
 	* Join distance lines onto directions lines (J in vim)
 	* Put in * [ ] At front of every like (use ctrl-v to select vertically and then I to insert for every line)
+	* Alternatively, add count of steps with: :'<,'>!cat -n (some cleanup with ctrl-v might be necessary)
 	* Edit down useless information from Google's too-detailed cue sheets
 		* delete "continue on" and "straight ahead" and "slight turn" type stuff
 		* remove excess turns (basically any turn that is within sight of the previous turn)
