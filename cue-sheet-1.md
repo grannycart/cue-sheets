@@ -1,5 +1,5 @@
 cue-sheet-1.md  
-Last modified: Sun Oct 23, 2022  05:11PM
+Last modified: Wed Oct 26, 2022  12:07PM
 
 - https://goo.gl/maps/Ayd35mGWPKtSdDm58
 
@@ -21,8 +21,6 @@ Last modified: Sun Oct 23, 2022  05:11PM
 * [ ] R Walnut; .5m
 * [ ] R E 132nd; 1 blk
 * [ ] L Randall's Island Connector
-
-\columnbreak
 
 :::
 

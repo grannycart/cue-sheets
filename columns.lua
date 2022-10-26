@@ -704,9 +704,9 @@ local function format_colspan_latex(elem, number_columns)
       -- create a list of inlines
       inlines = pandoc.List:new()
       inlines:insert(pandoc.RawInline('latex',
-        "\\end{multicols}\n"))
+        "\\end{multicols*}\n"))
       inlines:insert(pandoc.RawInline('latex',
-        "\\begin{multicols}{".. number_columns .."}["))
+        "\\begin{multicols*}{".. number_columns .."}["))
       inlines:extend(header_to_latex_and_inlines(elem.content[1]))
       inlines:insert(pandoc.RawInline('latex',"]\n"))
 
@@ -718,10 +718,10 @@ local function format_colspan_latex(elem, number_columns)
     else
 
       result:insert(pandoc.RawBlock('latex',
-        "\\end{multicols}\n"))
+        "\\end{multicols*}\n"))
       result:extend(elem.content)
       result:insert(pandoc.RawBlock('latex',
-        "\\begin{multicols}{".. number_columns .."}"))
+        "\\begin{multicols*}{".. number_columns .."}"))
       return result
 
     end
@@ -798,8 +798,8 @@ local function format_columns_latex(elem)
   end
 
   latex_begin = latex_begin ..
-    "\\begin{multicols}{" .. number_columns .. "}\n"
-  latex_end = "\\end{multicols}\n" .. latex_end
+    "\\begin{multicols*}{" .. number_columns .. "}\n"
+  latex_end = "\\end{multicols*}\n" .. latex_end
 
   elem.content:insert(1, pandoc.RawBlock('latex', latex_begin))
   elem.content:insert(pandoc.RawBlock('latex', latex_end))
