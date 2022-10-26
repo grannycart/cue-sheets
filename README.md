@@ -1,5 +1,13 @@
 # Convert Markdown Cue Sheet to Pocket-sized PDF
 
+
+## Requirements:
+* Pandoc:
+	* A more recent version. I was getting errors trying this on an older version of pandoc on debian.
+* Latex:
+	* A reasonably full install. Needs multicol package.
+
+
 ## What?
 If you write out a nice clean set of bicycle cues (that is, directions
 so you don't get lost while riding) in markdown, this make file will
@@ -72,13 +80,16 @@ them out by hand a second time.
 
 
 ## Resources:
-* columns.lua:
-	* is from: https://github.com/jdutant/columns
-	* Documented by: https://levelup.gitconnected.com/use-columns-adjust-margins-and-do-more-in-markdown-with-these-simple-pandoc-commands-adb4c19f9f35
-* Makefile:
-	* This Makefile modified from original maintainer at:
-		* https://github.com/evangoer/pandoc-ebook-template
-	* Originally released under an MIT license
+* All I did was make a simplified version of this Makefile for building books from markdown:
+	* Makefile:
+		* This Makefile modified from original maintainer at:
+			* https://github.com/evangoer/pandoc-ebook-template
+		* Originally released under an MIT license
+* And combine it with this lua script to use mulicols from markdown:
+	* columns.lua:
+		* is from: https://github.com/jdutant/columns
+		* Documented by: https://levelup.gitconnected.com/use-columns-adjust-margins-and-do-more-in-markdown-with-these-simple-pandoc-commands-adb4c19f9f35
+	* I also had to lightly modifiy this file for it to use the multicols call in multicols* mode that sets multicols to use unbalanced columns.
 
 
 ## License:
