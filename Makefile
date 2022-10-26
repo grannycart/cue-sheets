@@ -1,14 +1,15 @@
 # Makefile
-# Last modified: Wed Oct 26, 2022  02:44PM
+# Last modified: Wed Oct 26, 2022  04:37PM
 #################################################################################
 # Requires: pandoc latex columns.lua
 #
 # This is the built files directory, all output files will be created in here:
 BUILD = built-files
 # This FILENAME variable is the output file name:
-FILENAME = cue-sheet-example-formatted
+FILENAME = cue-sheet-formatted
 # This is the name of the (input) markdown version of your cue sheet:
 CUE_SHEET = cue-sheet-example.md
+# CUE_SHEET = cue-sheets/RandallsIsland-to-CityIsland.md
 LATEX_CLASS = article
 # This corresponds to the --css switch in the pandoc command:
 CSS = css/clean-html.css

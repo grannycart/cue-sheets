@@ -7,6 +7,28 @@
 * Latex:
 	* A reasonably full install. Needs multicol package.
 
+## How to use:
+* Edit the Makefile to point at the cue sheet markdown (.md) file you want to format.
+* Run: make
+* Compiled files will be in built-files directory (in html and pdf).
+* Run make clean to remove the buit-files directory
+* Note: If you get a "I can't write on file `input.pdf'" from pandoc/Latex, then you have run out of memory. Try closing software, rebooting, increasing swap, etc.
+
+
+## To get cues from google maps:
+* Using a computer (since there's no way to edit a route on a phone), put in your start and end addresses. Set to bicycle directions.
+* Edit your route by dragging points on it until you have a reasonable route instead of Google's default nonsense.
+* Click open details for the directions.
+* Select all directions and copy from website (don't print as pdf, that can result in formatting messups) 
+* In text editor:
+	* paste directions in
+	* Join distance lines onto directions lines (J in vim)
+	* Put in * [ ] At front of every like (use ctrl-v to select vertically and then I to insert for every line)
+	* Edit down useless information from Google's too-detailed cue sheets
+		* delete "continue on" and "straight ahead" and "slight turn" type stuff
+		* remove excess turns (basically any turn that is within sight of the previous turn)
+		* remove any other extraneous information
+
 
 ## What?
 If you write out a nice clean set of bicycle cues (that is, directions
@@ -77,6 +99,8 @@ because on a number of occasions I have been lost entirely because
 I couldn't read my own handwriting. Also over the years I have lost
 cue sheets that I know I've done before, and it sucks having to write
 them out by hand a second time.
+
+It also definitely still helps to have a map.
 
 
 ## Resources:
