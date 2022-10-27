@@ -1,11 +1,10 @@
-RandallsIsland-to-CityIsland.md  
-Last modified: Wed Oct 26, 2022  02:44PM
 
+## City Island to Randall's Island
 - https://goo.gl/maps/Ayd35mGWPKtSdDm58
 
 ::: {.columns column-count=3 columngap=4em column-rule="1pt solid black"}
 
-## City Island to Randall's Island
+### Start: Southern tip of City Island on City Island Ave
 * [ ] Bike path along City Island Road from City Island
 * [ ] Cross Pelham Bay Bridge
 * [ ] Ride along bike path along Bronx and Pelham Parkway (be careful not to lose path crossing interchanges); ~4-5 ms
@@ -21,6 +20,8 @@ Last modified: Wed Oct 26, 2022  02:44PM
 * [ ] R Walnut; .5m
 * [ ] R E 132nd; 1 blk
 * [ ] L Randall's Island Connector
+
+### Finish: Randall's Island
 
 :::
 

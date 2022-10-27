@@ -2,6 +2,14 @@
 ## Southampton to Prospect Park Century
 - https://goo.gl/maps/JJ3bMCAXytN3Rs1M6
 
+Long Island is among the worst places in the country to ride a bicycle. More or less the entire island is now shoulder-to-should single-family homes in a suburban mode. This puts tons of cars on the road, but also leaves enough road space for them to really move far too fast. At the same time there is very little space on the road for bicycles -- neither explicitly in the form of bike lanes nor implicitly in decent shoulders. It's got neither. As you get closer to the city it actually gets *safer* because there is more traffic and the cars move slower. I read once that, indeed, Suffolk County has one of the highest bicycle fatality rates in the country. (I have no source on that, sorry.)
+
+Still, I loved the idea of taking the LIRR out to some far point on the island and riding back into the city. And let's make it a century, since the other obvious start point -- Montauk -- is 125 miles from Brooklyn. It would be a lovely 2-day ride, but kinda long for a single day. So instead, I started in Southampton. Google's default route for Southampton to Prospect park has more than 100 turns in less than 100 miles. That means you almost never ride more than a mile without having to look for a turn -- for 10 hours of riding. To me, that sounded brutal, so I spent a lot of time trying to pare down the route and make it simpler and give myself longer stretches on single roads.
+
+However, this probably contributed to my sense that Long Island is awful for riding because longer stretches without turns meant riding on busier roads. It's possible if you take Google's turn-every-600-ft route, you might find yourself winding (slowly) through pleasant suburban back-streets the whole way with very little traffic.
+
+I don't *love* bike paths, but Long Island is a place that could seriously benefit from a bicycle expressway along the length of the island. The *landscape* of Long Island is shockingly beautiful. This route takes you along Shinnecock bay which has to be among the most beautiful bodies of water in the world. But the way LI is right now, you have to view the beauty through the gaps between the screaming past SUVs. It sucks *so* much because this century would be among my favorite rides ever for its beauty, easy up-and-down hills, and roads that are just *made* for cycling -- if there just weren't all the damned cars. 
+
 ::: {.columns column-count=4 columngap=1.5em column-rule="1pt solid black"}
 
 ### Start: Southampton LIRR Parking Lot Powell Ave, Southampton, NY 11968
