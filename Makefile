@@ -1,5 +1,5 @@
 # Makefile
-# Last modified: Wed Oct 26, 2022  04:37PM
+# Last modified: Thu Oct 27, 2022  02:22PM
 #################################################################################
 # Requires: pandoc latex columns.lua
 #
@@ -9,6 +9,7 @@ BUILD = built-files
 FILENAME = cue-sheet-formatted
 # This is the name of the (input) markdown version of your cue sheet:
 CUE_SHEET = cue-sheet-example.md
+# This is anothe cue sheet you could try, uncomment below line, comment above:
 # CUE_SHEET = cue-sheets/RandallsIsland-to-CityIsland.md
 LATEX_CLASS = article
 # This corresponds to the --css switch in the pandoc command:
@@ -25,10 +26,14 @@ html: $(BUILD)/html/$(FILENAME).html
 
 pdf: $(BUILD)/pdf/$(FILENAME).pdf
 
-$(BUILD)/html/$(FILENAME).html: $(CUE_SHEET)
+$(BUILD)/html/$(FILENAME).html: html-$(CUE_SHEET)
 	mkdir -p $(BUILD)/html
 #	Below: The -s flag is standalone.
 #	The --self-contained tells pandoc to include the css in the html file, rather than just referencing it.
+#	This is currently set to run on a copy of the cue sheet file prepended by html- (see line 29)
+#	The copy has the ::: {columns (etc) lines removed so pandoc doesn't interpret those to mean the file should have three columns
+#		(Something you probably don't want for html)
+#	It would be cool to add commands that stripped those lines out of the markdown files automatically
 	pandoc -s --css=$(CSS) --self-contained $(DATE) --from markdown+smart --to=html5 -o $@ $^
 
 $(BUILD)/pdf/$(FILENAME).pdf: $(CUE_SHEET)

@@ -1,10 +1,11 @@
 
-## Southampton to Prospect Park Century
+## LI Century: Southampton to Prospect Park
 - https://goo.gl/maps/JJ3bMCAXytN3Rs1M6
 
-::: {.columns column-count=4 columngap=1.5em column-rule="1pt solid black"}
+::: {.columns column-count=3 columngap=1.5em column-rule="1pt solid black"}
 
 ### Start: Southampton LIRR Parking Lot Powell Ave, Southampton, NY 11968
+
 1. Head southwest on Railroad Plaza toward Maple St 0.1 mi
 2. Turn left onto N Main St 0.2 mi
 3. Turn right onto Bowden Square 0.1 mi

@@ -2,7 +2,7 @@
 ## City Island to Randall's Island
 - https://goo.gl/maps/Ayd35mGWPKtSdDm58
 
-::: {.columns column-count=3 columngap=4em column-rule="1pt solid black"}
+::: {.columns column-count=3 columngap=1.5em column-rule="1pt solid black"}
 
 ### Start: Southern tip of City Island on City Island Ave
 * [ ] Bike path along City Island Road from City Island
