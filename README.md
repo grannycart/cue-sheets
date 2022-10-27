@@ -23,11 +23,16 @@
 * In text editor (I use vim):
 	* paste directions in
 	* Join distance lines onto directions lines (J in vim)
-	* Put in * [ ] At front of every like (use ctrl-v to select vertically and then I to insert for every line)
-	* Alternatively, add count of steps with: :'<,'>!cat -n (some cleanup with ctrl-v might be necessary)
+	* Add count of steps with: :'<,'>!cat -n (use ctrl-v to select vertically and then I to insert for every line; some cleanup with ctrl-v might also be necessary)
+		* Alternatively, Put in * [ ] At front of every line to get checkboxes instead of numbers.
+		* This can be useful if you are checking off as you go.
+		* But generally numbers will make it easier to track where you are.
+		* (Apparently Latex doesn't understand markdown numbers+checkboxes, so you have to choose one or the other.)
 	* Edit down useless information from Google's too-detailed cue sheets
 		* delete "continue on" and "straight ahead" and "slight turn" type stuff
 		* remove excess turns (basically any turn that is within sight of the previous turn)
+		* strip out embedded ads in the form of "Pass by xxx" (usually a bank or fast food restaurant)
+		* remove "walk your bicycle" lines
 		* remove any other extraneous information
 
 
