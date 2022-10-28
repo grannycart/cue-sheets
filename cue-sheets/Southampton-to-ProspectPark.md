@@ -10,8 +10,6 @@ However, this probably contributed to my sense that Long Island is awful for rid
 
 I don't *love* bike paths, but Long Island is a place that could seriously benefit from a bicycle expressway along the length of the island. The *landscape* of Long Island is shockingly beautiful. This route takes you along Shinnecock bay which has to be among the most beautiful bodies of water in the world. But the way LI is right now, you have to view the beauty through the gaps between the screaming past SUVs. It sucks *so* much because this century would be among my favorite rides ever for its beauty, easy up-and-down hills, and roads that are just *made* for cycling -- if there just weren't all the damned cars. 
 
-::: {.columns column-count=3 columngap=1.5em column-rule="1pt solid black"}
-
 ### Start: Southampton LIRR Parking Lot Powell Ave, Southampton, NY 11968
 
 1. Head southwest on Railroad Plaza toward Maple St 0.1 mi
@@ -77,6 +75,5 @@ I don't *love* bike paths, but Long Island is a place that could seriously benef
 
 ### Finish: Prospect Park
 
-:::
 
 

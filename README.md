@@ -9,9 +9,6 @@
 
 ## How to use:
 * Edit the Makefile to point at the cue sheet markdown (.md) file you want to format.
-* To set up for html:
-	* Make a copy of the cue sheet file an prepend the name with: html-
-	* Edit the file and remove the lines that begin with ::: that set up the multiple columns environment
 * Run: make
 * Compiled files will be in built-files directory (in html and pdf).
 * Run make clean to remove the buit-files directory
