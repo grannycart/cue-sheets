@@ -1,5 +1,5 @@
 # Makefile
-# Last modified: Thu Oct 27, 2022  02:22PM
+# Last modified: Fri Oct 28, 2022  07:47AM
 #################################################################################
 # Requires: pandoc latex columns.lua
 #
@@ -34,6 +34,10 @@ $(BUILD)/html/$(FILENAME).html: html-$(CUE_SHEET)
 #	The copy has the ::: {columns (etc) lines removed so pandoc doesn't interpret those to mean the file should have three columns
 #		(Something you probably don't want for html)
 #	It would be cool to add commands that stripped those lines out of the markdown files automatically
+#		Actually, it should be the other way around -- start with a clean md and add the column formatting line to the beginning.
+#		Then compile for pdf with that line in place (add closing ::: too)
+#		Maybe add a third make target that allows you to place the columns line manually (for middle of file placements)
+#			keep that one out of make all though
 	pandoc -s --css=$(CSS) --self-contained $(DATE) --from markdown+smart --to=html5 -o $@ $^
 
 $(BUILD)/pdf/$(FILENAME).pdf: $(CUE_SHEET)
