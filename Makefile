@@ -1,5 +1,5 @@
 # Makefile
-# Last modified: Fri Oct 28, 2022  10:44AM
+# Last modified: Fri Oct 28, 2022  11:15AM
 #################################################################################
 # Requires: pandoc latex columns.lua
 #
@@ -26,6 +26,8 @@ html: $(BUILD)/html/$(FILENAME).html
 
 pdf: $(BUILD)/pdf/$(FILENAME).pdf
 
+hand-formatted: $(BUILD)/hand-pdf/$(FILENAME).pdf
+
 $(BUILD)/html/$(FILENAME).html: $(CUE_SHEET)
 	mkdir -p $(BUILD)/html
 # 	pandoc command notes:
@@ -43,4 +45,16 @@ $(BUILD)/pdf/$(FILENAME).pdf: $(CUE_SHEET)
 #		Other options you might want to try:  -V classoption:twocolumn
 	pandoc -s --from markdown+smart --pdf-engine=xelatex $(DATE) --lua-filter="./columns/columns.lua" -V pagestyle=empty -V documentclass=$(LATEX_CLASS) -V classoption:landscape -V papersize=letter -V geometry:margin=.5in -o $@ ./columns/columns-format-prepend.md  $^ ./columns/columns-format-append.md
 
-.PHONY: all book clean html pdf
+$(BUILD)/hand-pdf/$(FILENAME).pdf: $(CUE_SHEET)
+	mkdir $(BUILD)/hand-pdf
+# 	pandoc command notes:
+# 	This is just the same line as the pdf target, but without the formatting files prepended and appended.
+# 	The idea is you could put those formatting lines into the markdown file by hand,
+# 	if you want them somewhere other than the beginning and end.
+# 	If you don't make any further edits to a plain markdown file, this will just
+# 	turn out the cues formatted for a full landscape sheet of paper.
+	pandoc -s --from markdown+smart --pdf-engine=xelatex $(DATE) --lua-filter="./columns/columns.lua" -V pagestyle=empty -V documentclass=$(LATEX_CLASS) -V classoption:landscape -V papersize=letter -V geometry:margin=.5in -o $@ $^ 
+
+
+
+.PHONY: all book clean html pdf hand-formatted
