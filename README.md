@@ -3,7 +3,7 @@
 ## What this does:
 * Write out the directions for your bike ride in a nice simple Markdown format. Then convert it to a printable format sized appropriately to be folded or cut and stashed in your pocket or a small map widow on your bicycle.
 * This is a Makefile that uses pandoc to take a markdown file and format it as a landscape-oriented pdf sheet with columns. Like this:
-	* ![cue-sheet-formatted.png](./supporting-materials/cue-sheet-formatted.png)
+	* ![cue-sheet-formatted.png](./more-readme/cue-sheet-formatted.png)
 
 
 ## Requirements:
@@ -88,7 +88,7 @@
 
 
 ## Resources:
-* An overly-long argument for the merits of the [cue sheet](./supporting-materials/why-cue-sheets.md).
+* An overly-long argument for the merits of the [cue sheet](./more-readme/why-cue-sheets.md).
 * The cue-sheets/ directory contains a number of my own rides from decades of riding around NYC and NY State. Give them a try if you are in New York!
 
 
