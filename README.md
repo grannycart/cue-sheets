@@ -19,8 +19,8 @@
 * Write up your cue sheet directions in markdown.
 * Edit the [Makefile](./Makefile) to point at the cue sheet markdown (.md) file you want to format.
 * Run: ```make```
-* Compiled files will be in built-files directory (in html and pdf).
-* Run ```make clean``` to remove the buit-files directory
+* Compiled files will be in built-files/ directory (in html and pdf).
+* Run ```make clean``` to remove the built-files/ directory
 
 
 ## To get cues from google maps:
@@ -31,8 +31,8 @@
 * In text editor (I use vim):
 	* paste directions in
 	* Join distance lines onto directions lines (J in vim)
-	* Add count of steps with: :'<,'>!cat -n (use ctrl-v to select vertically and then I to insert for every line; some cleanup with ctrl-v might also be necessary)
-		* Alternatively, Put in * [ ] At front of every line to get checkboxes instead of numbers.
+	* Add count of steps by selecting all the lines and then doing :'<,'>!cat -n (some cleanup with ctrl-v might also be necessary to deleted extra space around numbers).
+		* Alternatively, Put in * [ ] At front of every line to get checkboxes instead of numbers. (Use ctrl-v to select vertically and then I to insert for every line)
 		* This can be useful if you are checking off as you go.
 		* But generally numbers will make it easier to track where you are.
 		* (Apparently Latex doesn't understand markdown numbers+checkboxes, so you have to choose one or the other.)
@@ -52,7 +52,7 @@
 	* strip out embedded ads in the form of "Pass by xxx" (usually a bank or fast food restaurant)
 	* remove "walk your bicycle" lines
 	* remove any other extraneous information
-* Then go back and reference your cues turn-by turn while following the route zoomed in very closely on Google maps.
+* Then go back and reference your cues turn-by-turn while following the route zoomed in very closely on Google maps.
 	* You don't have to commit anything to memory explicitly -- that's what the cue sheet is for!
 	* But you want all your cues to make *sense* relative to the map.
 * And finally, before you go riding, you might want to make sure you have a map as a backup in case you get off track with your cues. Your phone is the obvious backup here. But don't dismiss paper maps. I almost never bring my phone on rides, and paper maps have saved me from brutal detours a number of times.
@@ -71,6 +71,7 @@
 
 ## Troubleshooting:
 * Make sure you have a fairly recent version of Pandoc.
+	* Works with 2.19.2
 * If you get a ```I can't write on file `input.pdf'``` from pandoc/Latex, then you have run out of memory. Try closing software, rebooting, increasing swap, etc.
 
 
