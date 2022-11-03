@@ -1,6 +1,6 @@
 
 ## LI Century: Southampton to Prospect Park
-- https://goo.gl/maps/JJ3bMCAXytN3Rs1M6
+[//]: # (- https://goo.gl/maps/JJ3bMCAXytN3Rs1M6)
 
 ### Start: Southampton LIRR Parking Lot Powell Ave, Southampton, NY 11968
 

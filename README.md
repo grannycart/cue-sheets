@@ -58,9 +58,19 @@
 * And finally, before you go riding, you might want to make sure you have a map as a backup in case you get off track with your cues. Your phone is the obvious backup here. But don't dismiss paper maps. I almost never bring my phone on rides, and paper maps have saved me from brutal detours a number of times.
 
 
+## Folding the paper
+* You know, do it however you want, but I do this:
+	1. Fold along the line for the first column
+	2. Fold the flap of the third column behind the second column (so when you flip the sheet over from the first column, you see the second)
+	3. Fold the long side of the sheet in half so it is pocket-sized.
+* If your ride is so long you need the third column, this fold isn't going to be great because it ends up folding through the third column a bit.
+* I like that this gives you a cue sheet small enough to fit in your hand, narrow enough for any pocket, and a little long so you can grab it from the top of your pocket without having to dig deep.
+
+
 ## Messing around with the configuration:
 * If you want to make adjustments to the number of columns, vertical lines, etc; edit [columns-format-prepend.md](./columns/columns-format-prepend.md)
 	* See documentation from columns.lua maintainer in "How this was made" section for more details.
+* Also check out the options passed to Latex on the pandoc line. You can change it to landscape, change the margins, etc.
 * There is also a make target that runs on just your cue sheet without adding the colums-format-prepend.md file:
 	* ```make hand-formatted```
 	* This target will build your markdown file into a pdf without adding the columns formatting.

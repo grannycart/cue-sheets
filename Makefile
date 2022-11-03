@@ -1,5 +1,5 @@
 # Makefile
-# Last modified: Fri Oct 28, 2022  11:15AM
+# Last modified: Thu Nov 03, 2022  11:55AM
 #################################################################################
 # Requires: pandoc latex columns.lua
 #
@@ -42,8 +42,8 @@ $(BUILD)/pdf/$(FILENAME).pdf: $(CUE_SHEET)
 #	pandoc concatenates input files together, so the colunmns-format files contain the columns lua filter configuration that gets added before the the main cue sheet markdown (contained in the automatic make variable $^) and then after for the closing formatting for the columns.
 #	some latex options (-V) added:
 #		-V pagestyle=empty turns off page numbers (maybe doesn't work with multi-page documents)
-#		Other options you might want to try:  -V classoption:twocolumn
-	pandoc -s --from markdown+smart --pdf-engine=xelatex $(DATE) --lua-filter="./columns/columns.lua" -V pagestyle=empty -V documentclass=$(LATEX_CLASS) -V classoption:landscape -V papersize=letter -V geometry:margin=.5in -o $@ ./columns/columns-format-prepend.md  $^ ./columns/columns-format-append.md
+#		Other options you might want to try:  -V classoption:twocolumn -V classoption:landscape
+	pandoc -s --from markdown+smart --pdf-engine=xelatex $(DATE) --lua-filter="./columns/columns.lua" -V pagestyle=empty -V documentclass=$(LATEX_CLASS) -V classoption:portrait -V papersize=letter -V geometry:margin=.5in -o $@ ./columns/columns-format-prepend.md  $^ ./columns/columns-format-append.md
 
 $(BUILD)/hand-pdf/$(FILENAME).pdf: $(CUE_SHEET)
 	mkdir $(BUILD)/hand-pdf
@@ -52,8 +52,8 @@ $(BUILD)/hand-pdf/$(FILENAME).pdf: $(CUE_SHEET)
 # 	The idea is you could put those formatting lines into the markdown file by hand,
 # 	if you want them somewhere other than the beginning and end.
 # 	If you don't make any further edits to a plain markdown file, this will just
-# 	turn out the cues formatted for a full landscape sheet of paper.
-	pandoc -s --from markdown+smart --pdf-engine=xelatex $(DATE) --lua-filter="./columns/columns.lua" -V pagestyle=empty -V documentclass=$(LATEX_CLASS) -V classoption:landscape -V papersize=letter -V geometry:margin=.5in -o $@ $^ 
+# 	turn out the cues formatted for a full sheet of paper.
+	pandoc -s --from markdown+smart --pdf-engine=xelatex $(DATE) --lua-filter="./columns/columns.lua" -V pagestyle=empty -V documentclass=$(LATEX_CLASS) -V classoption:portrait -V papersize=letter -V geometry:margin=.5in -o $@ $^ 
 
 
 
