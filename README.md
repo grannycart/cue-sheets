@@ -100,7 +100,7 @@
 
 ## Resources:
 * An overly-long argument for the merits of the [cue sheet](./more-readme/why-cue-sheets.md).
-* The [cue-sheets/](,/cue-sheets/) directory contains a number of my own rides from decades of riding around NYC and NY State. Give them a try if you are in New York!
+* The [cue-sheets/](./cue-sheets/) directory contains a number of my own rides from decades of riding around NYC and NY State. Give them a try if you are in New York!
 
 
 ## License:
