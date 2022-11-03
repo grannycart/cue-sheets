@@ -1,8 +1,8 @@
 # Convert Markdown Cue Sheet to Pocket-sized PDF
 
 ## What this does:
-* Write out the directions for your bike ride in a nice simple Markdown format. Then convert it to a printable format sized appropriately to be folded or cut and stashed in your pocket or a small map widow on your bicycle.
-* This is a Makefile that uses pandoc to take a markdown file and format it as a landscape-oriented pdf sheet with columns. Like this:
+* Write out the directions for your bike ride in a nice simple Markdown format. Then convert it to a printable format, sized appropriately to be folded or cut and stashed in your pocket, or in a small map widow on your bicycle.
+* This is a Makefile that uses pandoc to take a markdown file and format it as a pdf sheet with columns. Like this:
 	* ![cue-sheet-formatted.png](./more-readme/cue-sheet-formatted.png)
 
 
@@ -86,7 +86,7 @@
 
 
 ### How this was made:
-* All I did to make this script was simplify a version of this Makefile for building books from markdown:
+* All I did to was simplify a version of this Makefile for building books from markdown:
 	* https://github.com/evangoer/pandoc-ebook-template
 	* Under an MIT license
 * And add in this lua script to use mulicols from markdown:
@@ -94,7 +94,7 @@
 		* is from: https://github.com/jdutant/columns
 		* Documented by: https://levelup.gitconnected.com/use-columns-adjust-margins-and-do-more-in-markdown-with-these-simple-pandoc-commands-adb4c19f9f35
 		* Under an MIT license
-	* I also had to lightly modifiy this file for it to use the multicols call in multicols* mode that sets multicols to use unbalanced columns.
+		* I also had to lightly modifiy this file for it to use the multicols call in multicols* mode that sets multicols to use unbalanced columns.
 
 
 ## Resources:
