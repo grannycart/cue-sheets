@@ -1,5 +1,5 @@
 # Makefile
-# Last modified: Thu Nov 03, 2022  11:55AM
+# Last modified: Fri Nov 04, 2022  11:26AM
 #################################################################################
 # Requires: pandoc latex columns.lua
 #
@@ -9,7 +9,7 @@ BUILD = built-files
 FILENAME = cue-sheet-formatted
 # This is the name of the (input) markdown version of your cue sheet:
 CUE_SHEET = cue-sheet-example.md
-# This is anothe cue sheet you could try, uncomment below line, comment above:
+# This is another cue sheet you could try, uncomment below line, comment above:
 # CUE_SHEET = cue-sheets/RandallsIsland-to-CityIsland.md
 LATEX_CLASS = article
 # This corresponds to the --css switch in the pandoc command:
