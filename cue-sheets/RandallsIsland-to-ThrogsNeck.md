@@ -1,7 +1,7 @@
 
 ## Randall's Island to Throg's Neck
 
-[//]: # (- https://goo.gl/maps/JE9ExSPd2HaNEWyF9)
+[//]: # (- https://goo.gl/maps/JE9ExSPd2HaNEWyF9 )
 
 ### Start: Randall's Island
 
