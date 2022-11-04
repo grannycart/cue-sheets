@@ -1,5 +1,5 @@
 # Makefile
-# Last modified: Fri Nov 04, 2022  11:26AM
+# Last modified: Fri Nov 04, 2022  11:30AM
 #################################################################################
 # Requires: pandoc latex columns.lua
 #
@@ -10,7 +10,7 @@ FILENAME = cue-sheet-formatted
 # This is the name of the (input) markdown version of your cue sheet:
 CUE_SHEET = cue-sheet-example.md
 # This is another cue sheet you could try, uncomment below line, comment above:
-# CUE_SHEET = cue-sheets/RandallsIsland-to-CityIsland.md
+# CUE_SHEET = cue-sheets/RandallsIsland-to-ThrogsNeck.md
 LATEX_CLASS = article
 # This corresponds to the --css switch in the pandoc command:
 CSS = css/clean-html.css
@@ -51,6 +51,7 @@ $(BUILD)/hand-pdf/$(FILENAME).pdf: $(CUE_SHEET)
 # 	This is just the same line as the pdf target, but without the formatting files prepended and appended.
 # 	The idea is you could put those formatting lines into the markdown file by hand,
 # 	if you want them somewhere other than the beginning and end.
+# 	Try it with the cue sheets in the cue-sheets/ directory that have commentary at the beginning
 # 	If you don't make any further edits to a plain markdown file, this will just
 # 	turn out the cues formatted for a full sheet of paper.
 	pandoc -s --from markdown+smart --pdf-engine=xelatex $(DATE) --lua-filter="./columns/columns.lua" -V pagestyle=empty -V documentclass=$(LATEX_CLASS) -V classoption:portrait -V papersize=letter -V geometry:margin=.5in -o $@ $^ 
