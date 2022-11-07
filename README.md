@@ -37,6 +37,10 @@
 		* This can be useful if you are checking off as you go.
 		* But generally numbers will make it easier to track where you are.
 		* (Apparently Latex doesn't understand markdown numbers+checkboxes, so you have to choose one or the other.)
+	* If, like me, you occasionally see the world in reverse when facing south and find yourself taking your other left or your other right, consider using vim's find-and-replace to convert Google's turn directions to arrows:
+		* :%s/Turn left/<=/g
+		* :%s/Turn right/=>/g
+		* (There's probably also some cool unicodey way to do this.)
 * You can just stop here and compile with all of Google's prolix directions (and built-in ads). But I recommend spending some time cleaning them up.
 
 
