@@ -29,21 +29,8 @@
 * Edit your route by dragging points on it until you have a reasonable route instead of Google's default nonsense.
 * Click open details for the directions.
 * Select all directions and copy from website (don't print as pdf, that can result in formatting screw-ups) 
-* In text editor (I use vim):
-	* paste directions in
-	* Join distance lines onto directions lines (J in vim)
-	* Add count of steps by selecting all the lines and then doing ```:'<,'>!cat -n``` (some cleanup with ctrl-v might also be necessary to deleted extra space around numbers).
-		* Alternatively, Put in * [ ] At front of every line to get checkboxes instead of numbers. (Use ctrl-v to select vertically and then I to insert for every line)
-		* This can be useful if you are checking off as you go.
-		* But generally numbers will make it easier to track where you are.
-		* (Apparently Latex doesn't understand markdown numbers+checkboxes, so you have to choose one or the other.)
-	* If, like me, you occasionally see the world in reverse when facing south and find yourself taking your other left or your other right, consider using vim's find-and-replace to convert Google's turn directions to arrows:
-		* ```:%s/Turn left/<=/g```
-		* ```:%s/Turn right/=>/g```
-		* (There's probably also some cool unicodey way to do this.)
-	* You can tighten up the cues slightly more by removing the extraneous 0s in front of the decimal mileage indicators:
-		* ```:%/\ 0./\ ./g```
-* You can just stop here and compile with all of Google's prolix directions (and built-in ads). But I recommend spending some time cleaning them up.
+* Paste the directions into your favorite text editor.
+* If you are lazy, skip from here to Formatting your cues and live with the consequences of Google's embedded ads and places where it's giving you four turns of 20 feet each to get you across an intersection even though you can *see* the road you are supposed to take catty-corner from where you are waiting for a light.
 
 
 ## Cleaning up your cues
@@ -63,6 +50,23 @@
 	* You don't have to commit anything to memory explicitly -- that's what the cue sheet is for!
 	* But you want all your cues to make *sense* relative to the map.
 * And finally, before you go riding, you might want to make sure you have a map as a backup in case you get off track with your cues. Your phone is the obvious backup here. But don't dismiss paper maps. I almost never bring my phone on rides, and paper maps have saved me from brutal detours a number of times.
+
+
+## Formatting your cues (in Vim)
+* In text editor (I use vim):
+	* Join distance lines onto directions lines (J in vim)
+	* Add count of steps by selecting all the lines and then doing ```:'<,'>!cat -n``` (some cleanup with ctrl-v might also be necessary to deleted extra space around numbers).
+		* Alternatively, Put in * [ ] At front of every line to get checkboxes instead of numbers. (Use ctrl-v to select vertically and then I to insert for every line)
+		* This can be useful if you are checking off as you go.
+		* But generally numbers will make it easier to track where you are.
+		* (Apparently Latex doesn't understand markdown numbers+checkboxes, so you have to choose one or the other.)
+	* If, like me, you occasionally see the world in reverse when facing south and find yourself taking your other left or your other right, consider using vim's find-and-replace to convert Google's turn directions to arrows:
+		* ```:%s/Turn left/<=/g```
+		* ```:%s/Turn right/=>/g```
+		* (There's probably also some cool unicodey way to do this.)
+	* You can tighten up the cues slightly more by removing the extraneous 0s in front of the decimal mileage indicators:
+		* ```:%/\ 0./\ ./g```
+* You can just stop here and compile with all of Google's prolix directions (and built-in ads). But I recommend spending some time cleaning them up.
 
 
 ## Folding the paper
