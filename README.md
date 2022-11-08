@@ -22,7 +22,7 @@
 * Write up your cue sheet directions in markdown.
 * Edit the [Makefile](./Makefile) to point at the cue sheet markdown (.md) file you want to format.
 * Run: ```make```
-* Compiled files will be in built-files/ directory (in html and pdf).
+* Compiled files will be in built-files/ directory in html and pdf. I don't use the html, but it could be useful if you want to read your markdown cues on your phone.
 * Run ```make clean``` to remove the built-files/ directory
 
 
