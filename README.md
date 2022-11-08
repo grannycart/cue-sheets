@@ -32,15 +32,17 @@
 * In text editor (I use vim):
 	* paste directions in
 	* Join distance lines onto directions lines (J in vim)
-	* Add count of steps by selecting all the lines and then doing :'<,'>!cat -n (some cleanup with ctrl-v might also be necessary to deleted extra space around numbers).
+	* Add count of steps by selecting all the lines and then doing ```:'<,'>!cat -n``` (some cleanup with ctrl-v might also be necessary to deleted extra space around numbers).
 		* Alternatively, Put in * [ ] At front of every line to get checkboxes instead of numbers. (Use ctrl-v to select vertically and then I to insert for every line)
 		* This can be useful if you are checking off as you go.
 		* But generally numbers will make it easier to track where you are.
 		* (Apparently Latex doesn't understand markdown numbers+checkboxes, so you have to choose one or the other.)
 	* If, like me, you occasionally see the world in reverse when facing south and find yourself taking your other left or your other right, consider using vim's find-and-replace to convert Google's turn directions to arrows:
-		* :%s/Turn left/<=/g
-		* :%s/Turn right/=>/g
+		* ```:%s/Turn left/<=/g```
+		* ```:%s/Turn right/=>/g```
 		* (There's probably also some cool unicodey way to do this.)
+	* You can tighten up the cues slightly more by removing the extraneous 0s in front of the decimal mileage indicators:
+		* ```:%/\ 0./\ ./g```
 * You can just stop here and compile with all of Google's prolix directions (and built-in ads). But I recommend spending some time cleaning them up.
 
 
