@@ -2,8 +2,9 @@
 
 ## What this does:
 * Write out the directions for your bike ride in a nice simple Markdown format. Then convert it to a printable format, sized appropriately to be folded or cut and stashed in your pocket, or in a small map widow on your bicycle.
-* This is a Makefile that uses pandoc to take a markdown file and format it as a pdf sheet with columns. Like this:
+* This is a Makefile that uses pandoc to take a markdown file and format it as a pdf sheet with columns.
 * Also some tips for simplifying Google's prolix directions (and getting rid of their in-line ads). But doing that does require a little editing work by hand.
+* Here's what the markdown run through pandoc (and Latex) looks like:
 
 ![cue-sheet-formatted.png](./more-readme/cue-sheet-formatted.png)
 
