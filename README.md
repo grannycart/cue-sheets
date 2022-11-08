@@ -3,6 +3,7 @@
 ## What this does:
 * Write out the directions for your bike ride in a nice simple Markdown format. Then convert it to a printable format, sized appropriately to be folded or cut and stashed in your pocket, or in a small map widow on your bicycle.
 * This is a Makefile that uses pandoc to take a markdown file and format it as a pdf sheet with columns. Like this:
+* Also some tips for simplifying Google's prolix directions (and getting rid of their in-line ads). But doing that does require a little editing work by hand.
 
 ![cue-sheet-formatted.png](./more-readme/cue-sheet-formatted.png)
 
@@ -54,9 +55,9 @@
 
 ## Formatting your cues (in Vim)
 * In text editor (I use vim):
-	* Join distance lines onto directions lines (J in vim)
+	* Join distance lines onto directions lines (```J``` in vim)
 	* Add count of steps by selecting all the lines and then doing ```:'<,'>!cat -n``` (some cleanup with ctrl-v might also be necessary to deleted extra space around numbers).
-		* Alternatively, Put in * [ ] At front of every line to get checkboxes instead of numbers. (Use ctrl-v to select vertically and then I to insert for every line)
+		* Alternatively, Put in ```* [ ]``` at the front of every line to get checkboxes instead of numbers. (Use ```ctrl-v``` to select vertically and then I to insert for every line)
 		* This can be useful if you are checking off as you go.
 		* But generally numbers will make it easier to track where you are.
 		* (Apparently Latex doesn't understand markdown numbers+checkboxes, so you have to choose one or the other.)
@@ -65,8 +66,7 @@
 		* ```:%s/Turn right/=>/g```
 		* (There's probably also some cool unicodey way to do this.)
 	* You can tighten up the cues slightly more by removing the extraneous 0s in front of the decimal mileage indicators:
-		* ```:%/\ 0./\ ./g```
-* You can just stop here and compile with all of Google's prolix directions (and built-in ads). But I recommend spending some time cleaning them up.
+		* ```:%s/\ 0./\ ./g```
 
 
 ## Folding the paper
