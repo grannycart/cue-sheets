@@ -8,7 +8,7 @@
 1. Head east on Grand Army Plaza/Plaza St W toward Plaza St W .1 mi
 2. => onto St Johns Pl .1 mi
 3. <= onto Underhill Ave .4 mi
-4. Get on at Atlantic Washington Ave 1.2 mi
+4. Get on Washington Ave at Atlantic 1.2 mi
 5. => onto Flushing Ave, get on bike path .3 mi
 6. Take bike path around on Williamsburg St, stay on path W 2.1 mi
 7. Continue onto Franklin St .4 mi

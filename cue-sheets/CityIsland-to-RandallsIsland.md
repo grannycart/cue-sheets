@@ -2,7 +2,7 @@
 ## City Island to Randall's Island
 - https://goo.gl/maps/Ayd35mGWPKtSdDm58
 
-The tip of City Island is (almost unbelievably) a parking lot -- surrounded by water on three sides with views of the Long Island Sound and the Throg's Neck Bridge. But it's a parking lot for a fried-seafood-in-a-basket restaurant which is a pretty nice meal to eat at the picnic tables outside after riding 20 or 30 miles to get there. To get from (or to) Randall's Island, resist Google's efforts to avoid the Triborough (unless you are coming from Manhattan anyway). The Triborough (fuck the renaming) is a spectacularly frightening bridge to ride a bicycle over. There's a few stairs, and signs that you are supposed to walk your bike. Don't worrry about either. But take it easy over the main span -- the path there is about 2-bike-handlebar-widths wide and a guardrail at handlebar height,  200-foot drop to the river on one side and a 20-foot drop to the highway on the other. Take a moment to revel in the height and the view. Totally worth the terror.
+The tip of City Island is (almost unbelievably) a parking lot -- surrounded by water on three sides with views of the Long Island Sound and the Throg's Neck Bridge. But it's a parking lot for a fried-seafood-in-a-basket restaurant which is a pretty nice meal to eat at the picnic tables outside after riding 20 or 30 miles to get there. For cues to Randalls Island from Queens or Brooklyn, see Prospect Park to Randalls Island cue sheet.
 
 ::: {.columns column-count=3 columngap=1.5em column-rule="1pt solid black"}
 
