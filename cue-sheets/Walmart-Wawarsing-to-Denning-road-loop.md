@@ -1,18 +1,18 @@
 
 ## Wal-Mart Wawarsing to Denning Road Loop (~42 miles)
-https://goo.gl/maps/6KoJ8BydYNrRdpAr6
+https://goo.gl/maps/WJGUy9x61LJND1xs9
 
 ### Start: Wal-Mart Wawarsing, NY 12458
 
 1. Head southwest on US-209 S toward Old Rte 209 .5 mi
-2. => onto Old Rte 209 (at Tractor Supply) .3 mi
-3. => onto Continental Rd 1.3 mi
 4. => onto State Rte 55 W 3.4 mi
 5. => onto NY-55A W 7.6 mi
 6. => onto Sundown Rd .2 mi
 7. <= onto Sugarloaf Rd 4.0 mi
+	* (This is a nearly 5 mile climb. Not insanely steep, but unrelenting. Prepare yourself!)
 8. Bear right/Continue onto Red Hill Rd (at Dinch Rd) 1.7 mi
 9. <= onto New Rd Hill (at Red Hill Knolls Rd) .8 mi
+	* Note: in 2023 the road sign was missing for this road. There was only a sign for "Red Hill Rd")
 10. <= onto Denning Rd (at T) 2.3 mi
 11. Slight left onto Red Hill Rd .7 mi
 	* (This is critical, otherwise you are going way out of your way --- if you cross the river a second time on Denning Rd, you've gone too far)
