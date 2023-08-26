@@ -28,6 +28,7 @@
 21. Curves around at 25th Rd to get on Willets Point Blvd 1.8 mi
 22. Continue onto Cross Island Pkwy (road next to highway) .7 mi
 23. <= onto Totten Rd 1 blk
+* (For return directions, see Prospect Park to New World Mall and back)
 
 ### Finish: Fort Totten Park
 
