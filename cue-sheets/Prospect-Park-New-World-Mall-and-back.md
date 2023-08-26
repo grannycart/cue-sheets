@@ -23,7 +23,7 @@
 16. Bends left to become Martense Ave .4 mi
 17. => onto Corona Ave.  .2 mi
 18. At 111th St, make your way East through Corona Park 
-	19. Cross under the Grand Central Pkwy
+	19. Cross over the Grand Central Pkwy
 	20. Go around the Fountain of the Planets
 	21. Cross under the Van Wyck and immediately
 22. <= onto Fowler Path .2 mi
@@ -37,29 +37,30 @@
 ### Turnaround: New World Mall
 
 1. Head west on Roosevelt Ave .2 mi
-2. => onto Prince St .3 mi
-3. <= onto Flushing Bay Promenade .6 mi
-4. Keep left to stay on Flushing Bay Promenade / over the Northern Blvd bridge .8 mi
-5. => at small roundabout to get on Marina Rd 1 block
+2. => onto Prince St .3 mi (go down little hill)
+3. <= onto Northern Blvd bridge walkway .6 mi
+4. <= left to on Flushing Bay Promenade .8 mi
+5. => at small turn to get on Marina Rd 1 block
 6. <= onto Boat Basin Pl 1 block under Whitestone Expy
 7. => on path next to highway; make your way across the interchange .3 mi
 8. <= onto 34th Ave 2.6 mi
-9. => onto Broadway .2 mi
-10. Slight left onto Northern Blvd bike path 1.6 mi
-11. => onto 41st Ave 1 block; <= onto Queens Plaza N .3 mi 
-12. <= onto 23rd St .3 mi
-13. => onto 44th Dr .2 mi
-14. <= onto 11th St .4 mi
-15. => on Jackson Ave 1 blocj
-16. <= to cross Pulaski Bridge .6 mi
-17. => onto Freeman St .3 mi
-18. <= onto Franklin St .7 mi
-19. Continue onto Kent Ave bike lane 2.1 mi
-20. => onto Flushing Ave .5 mi
-21. <= onto Clermont Ave 1.0 mi
-22. <= onto Fulton St 361 ft
-23. => onto Vanderbilt Ave .6 mi
-24. Go around Grand Army Plaza to the park Dr .2 mi
+9. => onto Broadway .2 mi (just after 59th St)
+10. <= left onto Northern Blvd bike path 1.6 mi 
+11. => onto 41st Ave 1 block (a few blocks after you pass 33rd st); then immediate:
+12. <= onto Queens Plaza N .3 mi 
+13. <= onto 23rd St .3 mi
+14. => onto 44th Dr .2 mi
+15. <= onto 11th St .4 mi
+16. => on Jackson Ave 1 blocj
+17. <= to cross Pulaski Bridge .6 mi
+18. => onto Freeman St .3 mi
+19. <= onto Franklin St .7 mi
+20. Continue onto Kent Ave bike lane 2.1 mi
+21. => onto Flushing Ave .5 mi
+22. <= onto Clermont Ave 1.0 mi
+23. <= onto Fulton St 361 ft
+24. => onto Vanderbilt Ave .6 mi
+25. Go around Grand Army Plaza to the park Dr .2 mi
 
 ### Finish: Prospect Park
 
