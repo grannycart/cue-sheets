@@ -1,5 +1,5 @@
 # Makefile
-# Last modified: Fri Nov 04, 2022  11:30AM
+# Last modified: 2024-01-14 18:34
 #################################################################################
 # Requires: pandoc latex columns.lua
 #
@@ -20,7 +20,7 @@ DATE = -M date="Version date - `date "+%B %e, %Y"`"
 all: html pdf
 
 clean:
-	rm -r $(BUILD)
+	rm -rfd $(BUILD)
 
 html: $(BUILD)/html/$(FILENAME).html
 
