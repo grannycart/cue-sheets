@@ -1,5 +1,5 @@
 # Makefile
-# Last modified: 2024-01-14 18:34
+# Last modified: 2024-01-14 18:36
 #################################################################################
 # Requires: pandoc latex columns.lua
 #
@@ -7,10 +7,8 @@
 BUILD = built-files
 # This FILENAME variable is the output file name:
 FILENAME = cue-sheet-formatted
-# This is the name of the (input) markdown version of your cue sheet:
-CUE_SHEET = cue-sheet-example.md
-# This is another cue sheet you could try, uncomment below line, comment above:
-# CUE_SHEET = cue-sheets/RandallsIsland-to-ThrogsNeck.md
+# This is the name of the (input) markdown version of your cue sheet, edit to match the filename of the cue sheet you want to make a pdf of:
+CUE_SHEET = cue-sheets/cue-sheet-example.md
 LATEX_CLASS = article
 # This corresponds to the --css switch in the pandoc command:
 CSS = css/clean-html.css
