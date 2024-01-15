@@ -3,8 +3,8 @@
 ## Prospect Park Loop -- Through Howard Beach To Bayswater Point, around JFK ~37 mi
 
 [//]: # (Apparently Google cannot create a map that works for this whole route)
-[//]: # (Here is the map for the 1st half of the ride: https://maps.app.goo.gl/QwMWXJsen8r8npyv5 )
-[//]: # (Here is the map for the 2nd half of the ride: https://maps.app.goo.gl/GY2UJ51KyxgkR4VT6 )
+[//]: # (Here is the map for the 1st half of the ride: https://maps.app.goo.gl/VgMVe6ibbezDqoKA9 )
+[//]: # (Here is the map for the 2nd half of the ride: https://maps.app.goo.gl/KocTtfnhU4V7jE3q8 )
 
 ### Start: Prospect Park
 
@@ -13,9 +13,9 @@
 2. Bear left onto E New York Ave .7 mi
 3. Bear right on Pitkin Ave 2.4 mi
     * Alternative to Pitkin: => Ralph 1 blk 
-    * <= Sutter 2+ mi til it crosses Conduit, a few blocks more then
-    * => Pitkin for a few blocks
-4. => onto Fountain Ave (Dollar Tree on Right) .6 mi
+    * <= Sutter 2.4 mi 
+4. => onto Fountain Ave (after Logan St) .6 mi
+    * (NYCHA Cypress Hills Houses on L after Sutter)
 5. <= onto Loring Ave @ Linden Blvd .7 mi
 6. => onto Emerald St 1 blk
 7. <= onto Stanley Ave / 151st Ave .3 mi
@@ -59,6 +59,7 @@
 45. <= onto Aqueduct Rd .4 mi
 46. => onto Pitkin Ave 4.5 mi
     * Alternative to Pitkin: Cross the Belt on Cross Bay Blvd
+        * (Or: L Centerville; R Hawtree; Cohancy crosses Belt; R 157th Av to New Park)
     * <= 156th Ave; <= 90th St; pick up bike path 
     * (see Howard Beach loop cues; but ends up being 22+ mi)
 47. Bear right on E New York Ave .7 mi
