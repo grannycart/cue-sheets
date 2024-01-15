@@ -6,6 +6,10 @@
 [//]: # (Here is the map for the 1st half of the ride: https://maps.app.goo.gl/VgMVe6ibbezDqoKA9 )
 [//]: # (Here is the map for the 2nd half of the ride: https://maps.app.goo.gl/KocTtfnhU4V7jE3q8 )
 
+This is a pretty adventurous ride, taking you places where _nobody_ rides a bicycle. Be prepared for heavy truck traffic, bad roads with lots of potholes and broken glass, and burned out cars as part of the scenery. But some of the neighborhoods you pass through are beautiful and unique, Bayswater park is amazing in that way that only Jamaica Bay can be, and it's fun to see the neighborhoods on the far side of JFK.
+
+::: {.columns column-count=3 columngap=1.5em column-rule="1pt solid black"}
+
 ### Start: Prospect Park
 
 
@@ -30,7 +34,9 @@
 16. Cross the bridge, come down the ped ramp
 17. At B 92nd St, head east on Beach Channel Dr 2.7 mi
 18. <= onto Beach 36th St 1 blk
-19. => onto Norton Ave into park 1 block
+19. @ Norton Ave, turn left into park 1 block
+    * This is rough, take the desire lines path Northish.
+    * You'll pass a park bathroom on the left    
 20. <= out of park onto B 32nd St/Bay 32 St / becomes Norton Dr .7 mi
 21. Straight onto  Waterloo Pl @ Westbourne Ave 1 blk
 22. <= onto Mott Ave .3 mi
@@ -39,7 +45,9 @@
 25. <= onto Beach Channel Dr; becomes Sheridan Blvd 1.4 mi
 26. Sheridan bends around and becomes Burnside Ave .3 mi
 27. <= onto Nassau Expy .5 mi
+    * (This sucks balls, but it's not far and there is a shoulder)
 28. <= onto Rockaway Turnpike .4 mi
+    * (This sucks balls. Period. Ride on the sidewalk.)
 29. => onto Brookville Blvd @ Mastro cement plant 1.2 mi
 30. <= onto 147th **Ave** .2 mi
 31. => onto 232nd St .2 mi
@@ -52,11 +60,12 @@
 38. <= onto Baisley Blvd .5 mi
 39. Enter Baisley Pond Park at about 160th St; cross park, keeping the pond on your right .3 mi
 40. Come out of park on 125th Ave .1 mi
+    * You'll pass a park bathroom on the right    
 41. => onto 152nd St 1 blk
 42. <= onto 123rd Ave .6 mi
 43. <= onto 140th St 1 blk
 44. => onto Rockaway Blvd 1.6 mi
-45. <= onto Aqueduct Rd .4 mi
+45. <= @ Resort World Casino (Aqueduct Rd) .4 mi
 46. => onto Pitkin Ave 4.5 mi
     * Alternative to Pitkin: Cross the Belt on Cross Bay Blvd
         * (Or: L Centerville; R Hawtree; Cohancy crosses Belt; R 157th Av to New Park)
@@ -68,4 +77,4 @@
 
 ### Finish: Prospect Park Circle
 
-
+:::
