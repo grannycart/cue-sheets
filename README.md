@@ -57,6 +57,7 @@
 ## Formatting your cues (in Vim)
 * In text editor (I use vim):
 	* Join distance lines onto directions lines (```J``` in vim)
+        * (These days, you probably have to delete Google's directional arrow icons too)
 	* Add count of steps by selecting all the lines and then doing ```:'<,'>!cat -n``` (some cleanup with ctrl-v might also be necessary to deleted extra space around numbers).
 		* Alternatively, Put in ```* [ ]``` at the front of every line to get checkboxes instead of numbers. (Use ```ctrl-v``` to select vertically and then I to insert for every line)
 		* This can be useful if you are checking off as you go.
