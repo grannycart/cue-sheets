@@ -31,6 +31,7 @@
 24. => onto W 4th St 2 blks, under bridge
 25. => onto Avenue A 2.2 mi
 26. At W 36th St<= onto John F. Kennedy Blvd 1.4 mi
+    * (Pass under NJTP, cross 63rd st, then you will see Pamrapo)
 27. => onto Pamrapo Ave .3 mi
 28. <= onto Old Bergen Rd .2 mi
 29. => onto Seaview Ave 1 blk
@@ -43,8 +44,8 @@
 36. <= onto Coles St .4 mi
 37. => onto 18th st 1 blk
 38. <= onto Jersey Ave, goes R to become Newark St.0.3 mi
-39. Continue onto County Rd 681 at Marin/Henderson .4 mi 
-    * (Kobrick Coffee, left on Marin Henderson)
+    * (Take sidewalk on Jersey Ave)
+39. Continue onto Observer Hwy bikeway at Marin/Henderson .4 mi 
 40. <= onto Washington St 1.3 mi
 41. => onto 15th St 335 ft
 42. <= at Hudson to get on waterfront path .2 mi
@@ -52,6 +53,7 @@
 44. Jog right onto Ave at Port Imperial/Ferry Blvd 33 ft
 45. Take waterfront path at Ferry Port or Stay on Ave at Port Imperial 1.5 mi
 46. => onto River Rd (becomes Main/Hudson Terrace before GWB) 4.8 mi
+    * (River Road is awful, consider sidewalk, or finding alternate route further inland)
 47. <= onto GWB ped path 1.6 mi
 48. Make your way down to the Hudson River Greenway 10.4
 49. <= onto Warren St .4 mi
