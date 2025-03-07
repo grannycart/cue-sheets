@@ -21,9 +21,9 @@
 ## How to use:
 * Write up your cue sheet directions in markdown.
 * Edit the [Makefile](./Makefile) to point at the cue sheet markdown (.md) file you want to format.
-* Run: ```make```
+* Run: `make`
 * Compiled files will be in built-files/ directory in html and pdf. I don't use the html, but it could be useful if you want to read your markdown cues on your phone.
-* Run ```make clean``` to remove the built-files/ directory
+* Run `make clean` to remove the built-files/ directory
 
 
 ## To get cues from google maps:
@@ -56,19 +56,19 @@
 
 ## Formatting your cues (in Vim)
 * In text editor (I use vim):
-	* Join distance lines onto directions lines (```J``` in vim)
+	* Join distance lines onto directions lines (`J` in vim)
         * (These days, you probably have to delete Google's directional arrow icons too)
-	* Add count of steps by selecting all the lines and then doing ```:'<,'>!cat -n``` (some cleanup with ctrl-v might also be necessary to deleted extra space around numbers).
-		* Alternatively, Put in ```* [ ]``` at the front of every line to get checkboxes instead of numbers. (Use ```ctrl-v``` to select vertically and then I to insert for every line)
+	* Add count of steps by selecting all the lines and then doing `:'<,'>!cat -n` (some cleanup with ctrl-v might also be necessary to deleted extra space around numbers).
+		* Alternatively, Put in `* [ ]` at the front of every line to get checkboxes instead of numbers. (Use `ctrl-v` to select vertically and then I to insert for every line)
 		* This can be useful if you are checking off as you go.
 		* But generally numbers will make it easier to track where you are.
 		* (Apparently Latex doesn't understand markdown numbers+checkboxes, so you have to choose one or the other.)
 	* If, like me, you occasionally see the world in reverse when facing south and find yourself taking your other left or your other right, consider using vim's find-and-replace to convert Google's turn directions to arrows:
-		* ```:%s/Turn left/<=/g```
-		* ```:%s/Turn right/=>/g```
+		* `:%s/Turn left/<=/g`
+		* `:%s/Turn right/=>/g`
 		* (There's probably also some cool unicodey way to do this.)
 	* You can tighten up the cues slightly more by removing the extraneous 0s in front of the decimal mileage indicators:
-		* ```:%s/\ 0./\ ./g```
+		* `:%s/\ 0./\ ./g`
 
 
 ## Folding the paper
@@ -85,7 +85,7 @@
 	* See documentation from columns.lua maintainer in "How this was made" section for more details.
 * Also check out the options passed to Latex on the pandoc line. You can change it to landscape, change the margins, etc.
 * There is also a make target that runs on just your cue sheet without adding the colums-format-prepend.md file:
-	* ```make hand-formatted```
+	* `make hand-formatted`
 	* This target will build your markdown file into a pdf without adding the columns formatting.
 	* Useful if you want to manually place the columns formatting so it begins part-way down the document.
 	* For an example see [Southampton-to-ProspectPark.md](cue-sheets/Southampton-to-ProspectPark.md)
@@ -95,7 +95,7 @@
 ## Troubleshooting:
 * Make sure you have a fairly recent version of Pandoc.
 	* Works with 2.19.2
-* If you get a ```I can't write on file `input.pdf'``` from pandoc/Latex, then you have run out of memory. Try closing software, rebooting, increasing swap, etc.
+* If you get a `I can't write on file `input.pdf'` from pandoc/Latex, then you have run out of memory. Try closing software, rebooting, increasing swap, etc.
 
 
 ### How this was made:
